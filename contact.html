@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms and inputs</title>
+    <style>
+      body{
+        margin: 0px;
+        padding: 0px;
+      }
+      #bg{
+        background-image: url(abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background.jpg);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        color: white;
+      }
+
+      form{
+        margin: 47px -268px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div id="bg">
+
+   
+    <h2>
+      <u>Submit this form first</u>
+    </h2>
+    <h4>
+
+      <form action="#">
+        <label for="name"> Name</label>
+        <div><input type="text" tabindex="myname" placeholder="Enter your name" id="name" /></div>
+        <br />
+        <label for="Date_of_birth"> DOB </label>
+        <div><input type="date" name="Date_of_birth" id="DOB" /></div>
+        <br />
+
+        <label for="Age"> Age </label>
+        <div><input type="number" name="age" placeholder="Enter your age" id="Age" /></div>
+        <br />
+        <div>Email <input type="email" name="Email_id" id="" /></div>
+        <br />
+
+        <div>
+          <label for="radio"> Is it important :  </label>
+          Yes <input type="radio" name="txdh" id="radio" /> 
+         No<input type="radio" name="txdh" id="radio" /> 
+        </div>
+        <br />
+
+        <div>
+          <label for="Adult"> Are you 18+ </label>
+          <input type="checkbox" name="Adult" id="Adult" />
+        </div>
+        <br />
+
+        <div>
+          What is your favourite color
+          <input type="color" name="colour" id="" />
+        </div>
+        <br />
+
+        <div>
+          How good are you in coding
+          <input type="range" min="50" max="250" name="range" id="" />
+        </div>
+        <br />
+
+        <div>
+          Write your adress <br />
+
+          <textarea name="Description" id="" cols="70" rows="10"></textarea>
+        </div>
+        <br />
+
+        <input type="Reset" value="Reset" />
+
+        <input type="Submit" />
+
+        <br />
+      </form>
+    </h4>
+
+    
+
+    </div>
+  </body>
+</html>
